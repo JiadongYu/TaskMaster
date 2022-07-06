@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>📝 Task Master</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="title">
+      TASK MASTER
+    </div>
+
+    <div class="quote">
+      <p id="displayedQuote">
+
+      </p>
+      <img id="refresh" src="https://cdn-icons.flaticon.com/png/512/2267/premium/2267901.png?token=exp=1657077524~hmac=56ccee76cf4d4ee7a995e143a58f0b52">
+
+    </div>
+
+
+    <div>
+      <form class="userInput">
+        <input id="userEntry" type="text" name="taskToAdd" placeholder="Enter a new item!">
+        <img id="approvePhoto" src="https://cdn-icons-png.flaticon.com/512/148/148764.png">
+      </form>
+    </div>
+
+    <div class="modes">
+      <span class="tag" id="groceriesMode">GROCERIES</span>
+      <span class="tag" id="tasksMode">TASKS</span>
+      <span class="tag" id="workoutMode">WORKOUT</span>
+    </div>
+
+    <div class="tasks">
+
+    </div>
+
+    <div>
+      <button class="clearScreen tag" type="button" name="button">REMOVE ALL ITEMS</button>
+    </div>
+
+    Inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>
+
+    <script src="index.js"></script>
+  </body>
+</html>

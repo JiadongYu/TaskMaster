@@ -1,0 +1,145 @@
+div {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.title {
+  font-family: 'Lobster', cursive;
+  font-size: 80px;
+  color: #F7CB1B;
+}
+
+.title:hover {
+  text-shadow: 5px 5px 8px #ede8e6;
+}
+
+.groceries {
+  background-image: url("https://www.eatthis.com/wp-content/uploads/sites/4/2020/07/aisle.jpg?quality=82&strip=1");
+}
+
+.focus {
+  background-image: url("https://www.colliers.com/-/media/images/colliers/asia/singapore/colliers-review/blog-os-real-estate-talk-singapore-office-market-update-qa-rick-thomas-1536x1024.ashx?bid=55fdab288fa2435e83ce738772085c90");
+}
+
+.exercise {
+  background-image: url("https://media1.popsugar-assets.com/files/thumbor/7NvXrUxR1XBjpYeKPhI-ywNH63g/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/05/14/030/n/1922729/6978f89d348efe66_ClassPass_Zoom-background_4/i/Weightlifting-Gym-Zoom-Background.jpg");
+}
+
+.quote {
+  font-family: 'Cinzel', serif;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  border:5px solid #ffaa00;
+}
+
+#displayedQuote {
+  display: inline-block;
+}
+
+#refresh {
+  width: 50px;
+  height: 50px;
+}
+
+.userInput{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+}
+
+
+#userEntry {
+  text-align: center;
+  width: 600px;
+  display: inline-block;
+  font-size: 40px;
+}
+
+#approvePhoto {
+  width: 80px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.modes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tag {
+  padding: 10px 20px 10px 20px;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: white;
+}
+
+#groceriesMode {
+  border-color: #A3D570;
+}
+
+#groceriesMode:hover {
+  background-color: #A3D570;
+  color:white;
+}
+
+#tasksMode {
+  border-color: #5F5FEC;
+}
+
+#tasksMode:hover {
+  background-color: #5F5FEC;
+  color:white;
+}
+
+#workoutMode {
+  border-color: #FF000C;
+}
+
+#workoutMode:hover {
+  background-color: #FF000C;
+  color:white;
+}
+
+.tasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.listItem {
+  padding: 20px 30px 20px 30px;
+  margin-left: 150px;
+  border: 2px solid black;
+  width: 600px;
+  background-color: white;
+}
+
+.updateButton {
+  height: 60px;
+  width: 60px;
+}
+
+.clearScreen {
+  background-color: white;
+}
+
+.clearScreen:hover {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
